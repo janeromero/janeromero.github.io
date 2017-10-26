@@ -6,7 +6,7 @@
 # Feedback
 ## 2017-10-25
 ### Getting Started with GitLab
-This is my first feedback.
+I need to practice more
 
 # Feedback
 ## 2017-10-25
