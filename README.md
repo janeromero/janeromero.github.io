@@ -6,9 +6,9 @@
 # Feedback
 ## 2017-10-25
 ### Getting Started with GitLab
-I need to practice more
+I need to practice more 
 
 # Feedback
-## 2017-10-25
+## 2017-10-26
 ### Intro to HTML
-This is my first feedback.
+Lecture, practice and output were discussed in a concise manner. For a non IT person, this manner of training is helpful.
