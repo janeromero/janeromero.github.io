@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="x-ua-compatible" content="ie-edge">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>DOM Activity 3</title>
 </head>
 <body>
@@ -9,21 +14,65 @@
 
 	
 	<main>
-		<i class="#">Dashboard</i>
-			<img src="#">5 posts
-			<img src="#">13 images
-	
-		<br>
-		<i class="#">New Post</i>
-			<form action="" method="">
-			<textarea>Enter your post title here</textarea>
-			<br>
-			<textarea>Enter post content here</textarea></form>
-			<button>Submit</button>
-		
-		<br>
-		<i class="#">Upload Image</i>
+	<!-- Dashboard -->
+		<div>
+			<h3><i class="fa fa-home" aria-hidden="true">Dashboard</i></h3>
 
+			<!-- posts and images -->
+			<div>
+				<!-- icon for post -->
+				<div>
+				<i class=""></i>
+				<p>5</p>
+				<p>posts</p>
+				</div>
+
+				<div>
+				<!-- icon for images -->
+				<i class=""></i>
+				<p>13</p>
+				<p>images</p>
+				</div>
+			</div>
+		</div>
+
+	<!-- New Post -->
+		<div>
+			<h3><i class="fa fa-circle" aria-hidden="true">New Post</i></h3>
+			<form action="" method="">
+				<input type="text" name="" placeholder="Enter your post title here">
+				<textarea placeholder="Enter post content here"></textarea>
+				<input type="submit" name="" value="Publish">
+			</form>
+
+		</div>
+
+	<!-- Upload Image -->
+		<div>
+			<h3><i class="fa fa-cloud-upload" aria-hidden="true">Upload Image</i></h3>
+
+			<ul>
+				<li><a href="#"><img src="http://lorempixel.com/300/300/"></a></li>
+				<li><a href="#"><img src="http://lorempixel.com/300/300/"></a></li>
+				<li><a href="#"><img src="http://lorempixel.com/300/300/"></a></li>
+				<li><a href="#"><img src="http://lorempixel.com/300/300/"></a></li>
+				<li><a href="#"><img src="http://lorempixel.com/300/300/"></a></li>
+			</ul>
+
+			<form action="" method="">
+				<input type="file" name="" hidden="">
+				<button type="button">Browse</button> <!-- Needs Javascript -->
+				<button type="submit">Upload</button>
+			</form>
+
+		</div>
+		
+	</main>
+
+	
+	<footer>
+		<p>Tuitt Coding Bootcamp &copy; 2017</p>
+	</footer>
 
 
 

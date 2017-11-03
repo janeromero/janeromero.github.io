@@ -12,3 +12,38 @@ I need to practice more
 ## 2017-10-26
 ### Intro to HTML
 Lecture, practice and output were discussed in a concise manner. For a non IT person, this manner of training is helpful.
+
+# Feedback
+## 2017-11-02
+### Document Object Model
+ 
+
+# Feedback
+## 2017-11-02
+### TOPIC
+Feedback  
+
+# Feedback
+## 2017-11-02
+### TOPIC
+Feedback 
+
+# Feedback
+## 2017-11-02
+### TOPIC
+Feedback 
+
+# Feedback
+## 2017-11-02
+### TOPIC
+Feedback 
+
+# Feedback
+## 2017-11-02
+### TOPIC
+Feedback 
+
+# Feedback
+## 2017-11-02
+### TOPIC
+Feedback 
