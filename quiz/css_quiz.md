@@ -45,7 +45,7 @@
 - <!-- this is a comment →
 
 ### How do you add a background color for all <h1> elements?
-**- h1 {background-color: #FFFFFF;}**
+- **h1 {background-color: #FFFFFF;}**
 - all.h1 {background-color: #FFFFFF;}
 - h1.all {background-color: #FFFFFF;}
 - #h1 {background-color: #FFFFFF;}
@@ -101,13 +101,13 @@
 
 #### Declaration: font-weight; blue font-size:12px
 	
-#### Property Name: font-weight; color
+#### Property Name: font-weight:bold; color
 
-#### Property Value: blue, 12px
+#### Property Value: bold, 12px
 
 #### Declaration block: {
 	    font-weight: bold;
-	    color: grey
+	    color: grey;
 	}
 
 ### (5 pts) Determine the specificity value for each selectors below:
@@ -120,4 +120,4 @@
     
     main #comment #reply : 201 
     
-    nav > ul > li > a:hover : 104
+    nav > ul > li > a:hover : 14
