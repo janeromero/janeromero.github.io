@@ -23,12 +23,12 @@ I had no trouble coping up since everyone was eager to assist me when I got back
 
 ## 2017-11-03
 ### CSS Preparatory Course
-Though no deep discussion was invovled, we had an overview on what to expect on CSS
+Though no deep discussion was invovled, we had an overview on what to expect on CSS. I find this great, that a non IT person is able to understand the overview of a somewhat unfamiliar topic in 4 hours. 
 
 
 ## 2017-11-06
 ### Introduction to CSS/Quiz
-Feedback 
+An in-depth discussion to connect the prep course to the actual course was sufficient.  
 
 
 ## 2017-11-07
@@ -36,8 +36,8 @@ Feedback
 Feedback 
 
 
-## 2017-11-02
-### TOPIC
+## 2017-11-08
+### Markdown Extended 
 Feedback 
 
 
