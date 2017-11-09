@@ -42,6 +42,7 @@ h1 {
 	padding: 50px;
 	border: 1px solid #5d0603;
 	margin: 10px;
+	height: 50px;
 }
 
 strong {
@@ -59,4 +60,5 @@ p{
 span{
 	font-size: 2em; /* 1em = 16px (default font size)*/
 	color: red;
+	height: 10px;
 }

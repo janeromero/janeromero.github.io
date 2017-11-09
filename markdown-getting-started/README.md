@@ -49,6 +49,7 @@ echo('Hello world!')
 
 :zap:
 
+<<<<<<< HEAD
 :v:
 
 ## Tables
@@ -58,3 +59,6 @@ echo('Hello world!')
 | jane ruth | romero   |
 | rey alvin | romero   |
 | vina amor | romero   |
+=======
+:v:
+>>>>>>> 30399ef8d18f03c00f1a88e9916d86ef393aaf09
