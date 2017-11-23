@@ -7,8 +7,6 @@ body {
 	margin: 0;
 }
 
-.nav,
-.banner,
 .about,
 .services,
 .projects,
@@ -17,14 +15,9 @@ body {
 	padding: 100px;
 }
 
-.logo {
-	width: 140px;
-	height: 140px;
-	background-color: darkgrey;
-}
 
 h1 {
-	color: #000;
+	color: #9DA1AA;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 h2,
@@ -39,51 +32,65 @@ p {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-/*
- *
- * Navigation
- *
- */
+/*navigation*/
+
+.logo {
+	width: 140px;
+	height: 140px;
+}
+
+.img {
+	width: 70px;
+	height: 70px;
+}
 
 .nav {
 	background-color: #fff;
-	height: 100%;	
-	width: 200px;
 	position: fixed;
+	width: 100%;
+	text-align: center;
+	z-index: 999;
+	
 }
 
 ul {
+	margin: 0;
 	padding-left: 0;
 }
 
 ul > li {
 	list-style: none;
-	background-color: ##dce5ec;
-	margin-bottom: 2px;
+	/*background-color: #dce5ec;*/
+	margin-bottom: 0px;
+	margin-top: 0px;
 	text-align: center;
-	line-height: 48px;
-	/*padding: 20px;*/
+	display: inline;
+	/*line-height: 48px;*/
+	padding: 40px;
+	
 }
 
 ul > li > a {
 	text-decoration: none;
 }
+/*/.nav*/
 
+/*main*/
 .main {
-	background-color: #DCE5EC;
-	margin-left: 200px;
+	background-color: #fff;
+	/*margin-left: 200px;*/
 }
 
-/*
- *
- * Banner
- *
- */
+.img2 {
+	width: 700px;
+}
+
 
 .banner {
 	background-color: #fff;
 	position: relative;
 	min-height: 700px;
+	top: 100px;
 }
 
 .box {
@@ -97,30 +104,20 @@ ul > li > a {
 	transform: translate(-50%, -50%);
 }
 
+
+/*about*/
 .about {
 	background-color: #fff;
 	min-height: 300px;
 }
 
-/*
- *
- * Services
- *
- */
-
-.services {
-	background-color: #fff;
-	min-height: 300px;
+.img3 {
+	float: right;
+	width: 250px;
 }
 
-.services h3 {
-	margin-left: 5%;
-}
 
-.services p {
-	margin: auto 5% 5%;
-	text-align: justify;
-}
+/*services*/
 
 .column {
 	border: 3px solid #DCE5EC;
@@ -130,67 +127,13 @@ ul > li > a {
 	float: left;
 }
 
-.services img,
-.gallery img {
+.img4 {
 	width: 100%;
+
 }
 
 .clear:after {
 	content: "";
 	display: block;
 	clear: both;
-}
-
-.projects {
-	background-color: #fff;
-	min-height: 300px;
-}
-
-/*
- *
- * Gallery
- *
- */
-
-.gallery {
-	background-color: #fff;
-	min-height: 400px;
-}
-
-.gallery > .column {
-	width: 23%;
-	margin-left: 1%; 
-	margin-right: 1%;
-}
-
-.gallery h3 {
-	margin-left: 5%;
-}
-
-.gallery p {
-	margin: auto 5% 5%;
-	text-align: justify;
-}
-
-
-/*
- *
- * Footer
- *
- */
-
-.footer {
-	background-color: #fff;
-	min-height: 70px;
-}
-
-.contact {
-	float: right;
-}
-
-img[alt*="Social"] {
-	width: 50px;
-	height: 50px;
-	border: 1px solid black;
-	border-radius: 50%;
 }
