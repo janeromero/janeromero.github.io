@@ -176,21 +176,78 @@ ul > li > a {
 @media only screen and (max-width: 400px) {
 
 	body {
-		background-color: grey;
+		background-color: white;
+		margin: 0;
+
 	}
+
+	.nav,
+	.banner,
+	.about,
+	.services,
+	.projects,
+	.gallery,
+	.footer {
+	padding: 10px;
+	}
+
+	.nav {
+		position: relative;
+		width: 100%;
+	}
+
+	.logo {
+		position: relative;
+		height: 140px;
+		margin-left: 61px;
+	}
+
+	.main {
+		margin-left: 0px;
+	}
+
+	.column {
+		margin: 0;
+		width: auto;
+		float: left;
+	}
+
+	.img {
+		width: 50%;	
+		float: left;	
+	}
+
+	#content {
+		display: table-row;
+	}
+
+	.gallery > .column {
+	width: auto;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	div.contact {
+		float: none;
+	}
+
+
 }
 
 /* tablet devices */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 	body {
-		background-color: yellow;
+		background-color: white;
 	}
 
-	.nav,
-	.main,
-	.feature-2,
-	.feature-3 {
-		width: 50%;
+	.about,
+	.services,
+	.column,
+	.projects,
+	.gallery,
+	.footer {
 		float: left;
 	}
 }
@@ -221,8 +278,6 @@ ul > li > a {
 		height: 100px;
 	}
 }
-
-
 
 
 /*
