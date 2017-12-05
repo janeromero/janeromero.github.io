@@ -12,6 +12,57 @@ ul > li {
 	padding-top: 27px;
 }
 
+.container {
+	position: relative;
+	margin-top: 50px;
+}
+
+.col-md-12 {
+	text-align: center;
+}
+
+.icons-sm {
+	color: grey;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.carousel-inner img {
+	margin: auto;
+	margin-top: 1.5px;
+	max-height: 180px;
+	min-width: 320px;
+}
+
+.date {
+	font-size: 10px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+.rating,
+.abt p {
+	font-size: 12px;
+	margin: 0;
+}
+
+.aboutme {
+	text-align: center;
+}
+
+.jane {
+	border-radius: 50%;
+	width: 200px;
+}
+
+a {
+	color: grey;
+}
+
+
+
 /*desktop*/
 @media (min-width: 768px) {
 
@@ -24,8 +75,36 @@ ul > li {
 	margin-left: 18px;
 }
 
-.carousel-inner img {
-	margin: auto;
+.container {
+	position: relative;
+	margin-top: 100px;
 }
 
+.col-md-12 {
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+.icons-sm {
+	color: grey;
+	padding: 5px;
+	vertical-align: middle;
+	font-size: 1.6em;
+}
+
+
+.carousel-inner img {
+	margin: auto;
+	margin-top: 5px;
+	max-height: 540px;
+	max-width: 960px;
+}
+
+.aboutme {
+	margin: 40px;
+}
+
+h2 {
+	font-size: 32px;
+}
 }

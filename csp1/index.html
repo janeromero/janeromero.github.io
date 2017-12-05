@@ -13,6 +13,9 @@
 	<!-- import custom CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+  <!-- import icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- import query -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
@@ -34,21 +37,42 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img class="img" alt="logo" src="img/icon.png"></a>
+      <a class="navbar-brand" href="index.html"><img class="img" alt="logo" src="img/icon.png"></a>
     </div>
+
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-center">
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">Hangover</a></li>
         <li><a href="#">Jetlag</a></li>
-      
-        <li><a href="#">Contact Me</a></li>
-        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </div> <!-- /.collapse -->
   </div> <!-- /.container-fluid -->
 </nav>
+
+<div class="container"></div>
+<!-- Social Icons -->
+<div class="container">
+  <div class="row social">
+    <div class="col-md-12">
+      <!--Facebook-->
+      <a class="icons-sm fb-ic" href="https://www.facebook.com/jane.romero018" target="blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+      <!--Instagram-->
+      <a class="icons-sm ins-ic" href="https://instagram.com/drinkorfly" target="blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"> </i></a>
+      <!--Twitter-->
+      <a class="icons-sm tw-ic" href="https://twitter.com/janeromero" target="blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"> </i></a>
+      <!--Youtube-->
+      <a class="icons-sm yt-ic" href="#" target="blank"><i class="fa fa-youtube fa-lg" aria-hidden="true"> </i></a>
+      
+    </div> <!-- /.col-md-12 -->
+  </div> <!-- /.row -->
+</div> <!-- /.container -->
+
+
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -62,15 +86,15 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="img/apron1.jpg" alt="Los Angeles">
+      <img src="img/belchingbeaver.jpg" alt="beaver">
     </div>
 
     <div class="item">
-      <img src="img/asym1.jpg" alt="Chicago">
+      <img src="img/tiger.jpg" alt="tiger">
     </div>
 
     <div class="item">
-      <img src="asym2.jpg" alt="New York">
+      <img src="img/mike.jpg" alt="mike">
     </div>
   </div>
 
@@ -83,13 +107,67 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div> <!-- /.carousel -->
 
-<!-- import query -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Start of Blogs -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>California</h2>
+      <p class="date">05 December 2017 06:37PM</p>
+    </div><!-- .col-sm-12 -->
+  </div><!-- /.row -->
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="page-header">
+        
+        <figure>
+          <img class="img-responsive" src="img/stamonica.jpg" alt="sunset"><figcaption>Sunset in Sta. Monica Pier</figcaption></img>
+        </figure>
+        <br>
+        <p>Jetlag Rating:</p>
+        <h4 class="rating">Cathay Pacific:</h4>
+        <p class="rating">MNL - HK</p> <!-- insert ratings -->
+        <p class="rating">HK - LA</p>
+        <p class="rating">LA - HK</p>
+        <p class="rating">HK - MNL</p>
+        <br>
+        <h4 class="rating">Philippine Airlines</h4>
+        <p class="rating">MNL - LA</p> <!-- insert ratings -->
+        <p class="rating">LA - MNL</p>
+        <a href="#" class="pull-right read">Read more</a>
 
-<!-- import bootstrap js -->
-<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+      </div>  <!-- /.page-header -->
+
+      <div class="page-header">
+        <h2>Belching Beaver</h2>
+        <p>04 December 2017 10:15PM</p>
+        <figure>
+          <img class="img-responsive" src="img/belchingbeaver.jpg" alt="sunset"></img>
+        </figure>
+        <br>
+        <p>Hangover Rating: </p>     
+
+        <a href="#" class="pull-right read">Read more</a>
+
+      </div>  <!-- /.page-header -->
+    </div> <!-- /.col-sm-8 -->
+
+    <div class="col-sm-4">
+      <div class="aboutme">
+        <img class="jane" src="img/jane.jpg">
+        <h4 class="abt">Jane Romero</h4>
+        <p class="abt2">Analyst. Swimmer. Musician. Fighter. Web Developer</p>
+      </div>
+      <div>
+        <!-- LightWidget WIDGET -->
+        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/25f37d0ae66c5f9cadd8653f38919424.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+      </div>
+    </div><!-- /.col-sm-4 -->
+  </div> <!-- /.row -->
+</div> <!-- /.container-fluid -->
+
+
 
 
 </body>
