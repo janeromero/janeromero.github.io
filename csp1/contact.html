@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>About - Drink or Fly</title>
+	<title>Contact - Drink or Fly</title>
 
-	<link rel="shortcut icon" href="img/up.png" type="image/x-icon">
- 	<link rel="icon" href="img/up.png" type="image/x-icon">
+  	<link rel="shortcut icon" href="img/up.png" type="image/x-icon">
+ 	 <link rel="icon" href="img/up.png" type="image/x-icon">
 
 
 	<!-- import Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
 	<!-- import custom CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
 
   <!-- import icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,17 +31,13 @@
   <!-- import bootstrap js -->
   <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
-  <!-- FONT for Heading -->
+  <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
 
 </head>
-
-
 <body>
 
-<body>
-
-<nav class="navbar navbar-default navbar-fixed-top animated fadeInDown shrink">
+	<nav class="navbar navbar-default navbar-fixed-top animated fadeInDown shrink">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -77,43 +74,49 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-8">
-			
-			<p>Drink or Fly brings out how much hangover and jetlag you can get with each drink or each flight you take.
+		<div class="col-md-8">
+			<p>We love to hear from you. Any suggestions to feed our pity excuse are welcome</p>
+			<div class="form-group">
+				<label for="usr">Name:</label>
+				<input type="text" class="form-control" id="usr" name="name">
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" id="eml" name="email">
+			</div>
+			<div class="form-group">
+				<label for="sub">Subject:</label>
+				<input type="text" class="form-control" id="eml" name="subject">
+			</div>
+			<div class="form-group">
+  				<label for="comment">Message:</label>
+  				<textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+			<div>
+			<button type="button" class="btn">Submit</button>
+			<button type="button" class="btn">Clear</button>
+			</div>
+		</div>
 
-			<figure>
-				<img class="boarding" src="img/tiger.jpg">
-			</figure>
- 
-			<p>Know how much hangover a few shots of different alcohol can give you and know if a bar experience is worth the hype. Have a closer look on what alcohol will be available, from Pale Ale to straight out tequila. Check our hangover ratings! We give as much as 5 out of 5 beer mugs for the best bar experience and worst hangover.</p>
+		<div class="col-md-4">
+		<p><strong>SOCIAL MEDIA</strong></p>
+		<!--Facebook-->
+      	<a class="icons-sm fb-ic" href="https://www.facebook.com/jane.romero018" target="blank"><button type="button" class="btn btn-fb"><i class="fa fa-facebook left"></i> Facebook</button></a>
+      	<br>
+      	<!--Instagram-->
+      	<a class="icons-sm ins-ic" href="https://instagram.com/drinkorfly" target="blank"><button type="button" class="btn btn-ins"><i class="fa fa-instagram left"></i> Instagram</button></i></a>
+      	<br>
+      	<!--Twitter-->
+      	<a class="icons-sm tw-ic" href="https://twitter.com/janeromero" target="blank"><button type="button" class="btn btn-tw"><i class="fa fa-twitter left"></i> Twitter</button></i></a>
+      	<br>
+      	<!--Youtube-->
+      	<a class="icons-sm yt-ic" href="#" target="blank"><button type="button" class="btn btn-yt"><i class="fa fa-youtube left"></i> Youtube</button></a>
+		</div>
 
-			<figure>
-				<img class="boarding" src="img/boarding.jpg">
-			</figure>
- 
-			<p>Be prepared when travelling. Know how much time you need to rest on each flight to avoid jetlag. We rate the flight/travel experience by jetlag ratings. </p>
- 
-			<p>Have any suggestions on bars and alcohol you want us to review, places we need to go? Contact us.</p>
+	</div>
+</div>
 
-		</div> <!-- /.col-sm-8 -->
 
-		<div class="col-sm-4">
-      		<div class="about">
-        		<img class="about1" src="img/icon.png">
-        		<h4 class="abt">Drink Or Fly</h4>
-        		<p class="abt2">A pity excuse to drink and travel.</p>
-        		<!--Facebook-->
-     			 <a class="icons-sm fb-ic" href="https://www.facebook.com/jane.romero018" target="blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
-     			 <!--Instagram-->
-      			<a class="icons-sm ins-ic" href="https://instagram.com/drinkorfly" target="blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"> </i></a>
-     			 <!--Twitter-->
-     			 <a class="icons-sm tw-ic" href="https://twitter.com/janeromero" target="blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"> </i></a>
-      			<!--Youtube-->
-      			<a class="icons-sm yt-ic" href="#" target="blank"><i class="fa fa-youtube fa-lg" aria-hidden="true"> </i></a>
-      		</div>
-    	</div><!-- /.col-sm-4 -->
-	</div>	<!-- /.row -->
-</div> <!-- /.container-fluid -->
 
 <div class="container-fluid">
   <footer class="row footer">
@@ -136,9 +139,6 @@
   });
 });
 </script>
-
-
-
 
 
 </body>
