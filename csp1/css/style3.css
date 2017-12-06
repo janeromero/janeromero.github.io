@@ -78,6 +78,9 @@ img {
 	max-width: 100%;
 }
 
+.imgrate {
+	max-width: 40%;
+}
 .footer {
 	margin-top: 20px;
 }
