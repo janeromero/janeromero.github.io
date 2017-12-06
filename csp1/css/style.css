@@ -4,6 +4,30 @@
 	box-sizing: border-box;
 }
 
+.headerpic {
+	margin-top: 50px;
+	text-align: center;
+	/*width: 320px;*/
+	width: 100%;
+}
+
+/*nav*/
+.navbar {
+  height: 50px;
+  background: white; // Transparent initial setting
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+}
+
+.navbar.shrink {
+  transition: all ease .5s;
+  background: lightgrey; // Change background to black on scroll
+  opacity: 50%;
+}
+
 .img {
 	max-height: 100%;
 }
@@ -66,6 +90,36 @@ a {
 /*desktop*/
 @media (min-width: 768px) {
 
+.navbar {
+  height: 50px;
+  background: white; // Transparent initial setting
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+  border-color: transparent;
+}
+
+.navbar.shrink {
+  transition: all ease .5s;
+  background: lightgrey; // Change background to black on scroll
+  opacity: 20%;
+}
+
+ul > li {
+	padding-top: 0;
+}
+
+li {
+	text-align: center;
+}
+
+.headerpic {
+	margin-top: 150px;
+	width: 100%;
+}
+
 .navbar-brand {
 	margin-top: 18px;
 	padding: 0px;
@@ -73,6 +127,7 @@ a {
 
 .img {
 	margin-left: 18px;
+	max-height: 110%
 }
 
 .container {
@@ -81,15 +136,15 @@ a {
 }
 
 .col-md-12 {
-	text-align: right;
+	text-align: center;
 	margin-bottom: 20px;
 }
 
 .icons-sm {
 	color: grey;
-	padding: 5px;
+	padding: 15px;
 	vertical-align: middle;
-	font-size: 1.6em;
+	font-size: 3em;
 }
 
 
@@ -108,3 +163,5 @@ h2 {
 	font-size: 32px;
 }
 }
+
+

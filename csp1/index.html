@@ -7,6 +7,10 @@
 
 	<title>Drink or Fly</title>
 
+  <link rel="shortcut icon" href="img/up.png" type="image/x-icon">
+  <link rel="icon" href="img/up.png" type="image/x-icon">
+
+
 	<!-- import Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
@@ -16,8 +20,13 @@
   <!-- import icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- import query -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- import animation -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <!-- import jquery -->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/navshrink.js"></script>
 
   <!-- import bootstrap js -->
   <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -27,7 +36,7 @@
 
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top animated fadeInDown shrink">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -43,7 +52,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-center">
+      <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html">Home</a></li>
         <li><a href="#">Hangover</a></li>
         <li><a href="#">Jetlag</a></li>
@@ -54,7 +63,15 @@
   </div> <!-- /.container-fluid -->
 </nav>
 
-<div class="container"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      <img class="headerpic" src="img/header.png">
+    </div>
+  </div>     
+</div>
+
+<div class="container-fluid"></div>
 <!-- Social Icons -->
 <div class="container">
   <div class="row social">
@@ -155,19 +172,27 @@
 
     <div class="col-sm-4">
       <div class="aboutme">
-        <img class="jane" src="img/jane.jpg">
-        <h4 class="abt">Jane Romero</h4>
-        <p class="abt2">Analyst. Swimmer. Musician. Fighter. Web Developer</p>
-      </div>
-      <div>
-        <!-- LightWidget WIDGET -->
-        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/25f37d0ae66c5f9cadd8653f38919424.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+        <img class="jane" src="img/icon.png">
+        <h4 class="abt">Drink Or Fly</h4>
+        <p class="abt2">A pity excuse to drink and travel.</p>
+        <a href="about.html" class="center read">Read more</a>
       </div>
     </div><!-- /.col-sm-4 -->
   </div> <!-- /.row -->
 </div> <!-- /.container-fluid -->
 
-
+<script type="text/javascript">
+  $(document).ready(function() {
+  $(window).scroll(function() {
+    if($(document).scrollTop() > 10) {
+      $('.navbar').addClass('shrink');
+    }
+    else {
+    $('.navbar').removeClass('shrink');
+    }
+  });
+});
+</script>
 
 
 </body>
