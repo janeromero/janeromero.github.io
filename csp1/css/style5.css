@@ -129,7 +129,6 @@ li {
 /* header: DRINK OR FLY */
 .headerpic {
 	margin-top: 150px;
-	margin-left: 345px;
 	margin-bottom: 100px;
 	width: 50%;
 
@@ -152,6 +151,3 @@ li {
 	font-size: 3em;
 }
 
-figure {
-	text-align: center;
-}

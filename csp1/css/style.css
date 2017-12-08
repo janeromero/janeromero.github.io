@@ -123,8 +123,6 @@ h4 {
 }
 
 
-
-
 /*desktop*/
 @media (min-width: 768px) {
 
@@ -162,10 +160,14 @@ li {
 /* header: DRINK OR FLY */
 .headerpic {
 	margin-top: 150px;
-	margin-left: 345px;
 	margin-bottom: 100px;
 	width: 50%;
 
+
+}
+
+.col-md-12 {
+	text-align: center;
 }
 
 .navbar-brand {
@@ -257,5 +259,6 @@ a {
 }
 
 }
+
 
 
