@@ -151,3 +151,7 @@ li {
 	vertical-align: middle;
 	font-size: 3em;
 }
+
+figure {
+	text-align: center;
+}
