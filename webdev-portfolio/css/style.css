@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*header: DRINK OR FLY*/
+
+.headerpic {
+  margin-top: 60px;
+  width: 70%;
+}
+
+/*NAVIGATION BAR*/
+.navbar {
+  height: 50px;
+  background: white; 
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+  border-color: transparent;
+}
+
+.navbar.shrink {
+  transition: all ease .5s;
+  background: rgba(193,193,193,.7);
+}
+
+.img {
+  max-height: 160%;
+}
+
+ul > li {
+  font-family: 'Spectral SC', serif;
+  background-color: rgba(193,193,193,.9);
+  border-style: solid;
+  border-color: rgba(220,220,220,.9);
+}
