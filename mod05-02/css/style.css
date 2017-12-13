@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: grey; 
+}
+
+nav {
+	position: absolute;
+	top: 0;
+	;left: 0;
+}
+
+.wrapper {
+	background-color: white;
+	width: 80vw; /*vw= viewport width*/
+	/*height: 100vh; vw= viewport height*/
+	margin:0 auto;
+}
+
+.box {
+	border: 5px solid black;
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.nav-box {
+	border: 2px solid black;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	margin: 15px;
+	border-radius: 50%;
+
+}
+
+.red {
+	background-color: red;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.indigo {
+	background-color: indigo;
+}
+
+.violet {
+	background-color: violet;
+}
