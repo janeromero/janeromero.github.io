@@ -10,21 +10,25 @@
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
 	
-	<title></title>
+	<title>Loops - Chessboard Generator</title>
 
 </head>
 <body>
 
 	<div id="mainWrapper" class="wrapper clear">
 		
-		<h1 id="header1">Odd/Even Number Identifier</h1>
+		<h1 id="header1">Chessboard Generator</h1>
 		<hr>
 
-		<input type="number" id="numberInput">
-		<button onclick="identifyThis()">Identify</button>			
-		<hr>
+		<div class="form">
+			<form name="inputForm">
+				<input type="text" name="num" id="num" placeholder="Enter a Number">
+				<input type="text" name="step" id="step" placeholder="Enter a Step">
+				<input type="button" value="generate" onclick="generateTable()">
+			</form>
+		</div>
 
-		<p id="theMessage"></p>
+		
 
 	</div> <!-- /.wrapper -->
 
