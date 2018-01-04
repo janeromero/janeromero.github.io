@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	
+	<title>JS Intro</title>
+
+</head>
+<body>
+
+	<h1>Sample JS</h1>
+	<h2>Night Class</h2>
+
+	<input type="number" id="input"><button id="btn" onclick="dRaw()">Draw!</button>
+	<div id="loopDisplay" onchange="clear()"></div>
+</body>
+
+	<script type="text/javascript">
+
+
+/*		var x = 0;
+		var y = 0;
+
+		while (x <= 10) {
+		y = y + x;
+		x++
+		}
+
+		alert (y)
+
+		var sum = 0;
+		var x = 0;
+
+		while(x <= 10){
+			if (x % 2 == 0){
+			sum += x;}
+			x++;
+		}
+
+		alert(sum)*/
+
+		// /*While, if loop*/
+		// var odd = 0;
+		// // var x = 0;
+		// var even = 0;
+		
+// /*		while(x <= 50){
+// 			if (x % 2 == 1){
+// 			odd += x}
+// 			else {
+// 			even += x}
+// 			x++;
+
+// 		}
+
+// 		alert(odd)
+// 		alert (even)*/
+
+// 		/*FOR LOOP*/
+
+// 		for(var x = 0; x <= 50; x++){
+// 			if (x % 2 == 1){
+// 			odd += x}
+
+// 			else {
+// 			even += x}
+// 		}
+
+// 		alert("ODD:" + odd);
+// 		alert("EVEN:" + even);
+
+
+	// for (var x = 0; x <= 20; x++){
+	// 	if (x % 3 == 0 && x % 5 != 0) {
+	// 		console.log(x + " is a multiple of 3 but NOT a multiple of 5")
+	// 	}
+
+	// 	else if (x % 5 == 0 && x % 3 !=0){
+	// 		console.log(x + " is NOT a multiple of 3 but a multiple of 5")
+	// 	}
+
+	// 	else if (x % 3 == 0 && x % 5 == 0){
+	// 		console.log(x + " is a common multiple of 3 and 5")
+	// 	}
+
+	// 	else{
+	// 		console.log(x + " is NOT a multiple of both 3 and 5")
+	// 	}
+	// }
+
+	function dRaw(){
+		document.getElementById("loopDisplay").innerHTML = " "
+
+		var num = document.getElementById("input").value
+		console.log(num);
+
+		for(var x=0; x<num; x++){
+			document.getElementById("loopDisplay").innerHTML += " *"}
+
+
+		for(var x=0; x<num; x++){
+			document.getElementById("loopDisplay").innerHTML += "<br> * * *"
+	}
+}
+
+	</script>
+
+	
+	
+
+</html>
