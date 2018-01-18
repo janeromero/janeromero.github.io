@@ -1,49 +1,49 @@
 <?php
-require_once 'assets/lib/twelve_days.php'
+
+require_once 'assets/lib/twelve_days.php';
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
-
-	<meta charset="utf-8">
-
-	<meta name="viewport" content="width-device-width, initial-scale=1.0, maximum-scale=1.0">
-
-	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
-
-	  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
 	<title><?php echo getTitle(); ?> Lyrics</title>
 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- FONT -->
+  	<link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
 
 </head>
-<body>
+<body background="assets/img/bg.jpg">
 
-	<?php 
-	echo "<h1> 12 Days of Christmas </h1>";
 
-	?>
-	<div id="lyrics">
+
 	<?php
+
+	echo "<h1>12 Days of Christmas </h1>";
 
 	echo getLyrics();
 
 	?>
-	</div>
 
-	<button id="show" onclick="showLyrics()">Show</button>
+	<script type="text/javascript">
+		// get all day containers
+		var days = document.querySelectorAll('[id^="day"]'); // array
 
+		// hide all day containers except first day
+		days.forEach(function(value, index) {
+			if (index > 0)
+				document.getElementById('day' + index).style.display = 'none';
+		});
+	</script>
 
+	<script type="text/javascript" src="assets/lib/jquery-3.2.1.min.js"></script>
 
-<script>
-
-	// function showLyrics() {
-	// 	document.getElementById("lyrics").style.visibility = visible;
-	// }
-
-</script>
+	<script type="text/javascript" src="assets/js/animate_days.js"></script>
 
 </body>
 </html>
