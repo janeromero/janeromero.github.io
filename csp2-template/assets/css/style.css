@@ -1,0 +1,22 @@
+
+.main-footer {
+	background-color: lightgrey;
+	padding: 15px;
+	text-align: center;
+}
+
+.wrapper {
+	background-color: white;
+	width: 80vw;
+	margin: 0 auto;
+	min-height: 70vw;
+}
+
+body {
+	background-color: grey;
+}
+
+.navbar-inverse,
+h1 {
+	margin: 0;
+}
