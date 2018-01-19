@@ -31,7 +31,7 @@ include 'partials/head.php';
 			<input type="password" name="password" id="password" placeholder="Password">
 
 			<label>Confirm Password</label>
-			<input type="password" name="password" id="password" placeholder="Confirm Password">
+			<input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
 			
 			<input type="submit" name="submit" value="Register">
 		</form>

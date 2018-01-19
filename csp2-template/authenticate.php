@@ -2,12 +2,15 @@
 
 session_start();
 
-$users = [
-	['username' => 'admin', 'password' => 'abc123'],
-	['username' => 'jane', 'password' => 'jane123'],
-	['username' => 'user1', 'password' => 'abc111']
+// $users = [
+// 	['username' => 'admin', 'password' => 'abc123'],
+// 	['username' => 'jane', 'password' => 'jane123'],
+// 	['username' => 'user1', 'password' => 'abc111']
 
-];
+// ];
+
+$file = file_get_contents('assets/users.json');
+$users = json_decode($file, true);
 
 $isLoginSuccessful = false;	// monitor login staturs
 
@@ -27,6 +30,7 @@ foreach ($users as $user) {
 			// echo 'Password is correct.';
 			// header('location: home.php'); // after authentication, will re route to home.php
 			$isLoginSuccessful = true;
+			$_SESSION['role'] = $user['role'];
 			break;
 		}
 	}
