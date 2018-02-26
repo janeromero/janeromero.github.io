@@ -1,0 +1,72 @@
+/* css reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;   /* to avoid overflowing elements */ 
+	/*box-sizing: content-box; default value of box-sizing */
+}
+
+.wrapper {
+	border: 1px solid blue;
+	width: 48%;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+div.wrapper > div,
+div.wrapper > div > div {
+	border: 2px solid #5d6063;
+	background-color: skyblue;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 25px;
+	width: 50%;
+}
+
+h1,
+p {
+	background-color: #dde0e3;
+}
+
+/* from inline type to block type elements */
+em,
+strong {
+	background-color: #b2d6ff;
+	display: inline;
+}
+
+h1 {
+	/*
+	 * applying padding to specific sides of box model
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	*/
+	padding: 50px;
+	/*
+     * applying border properties individually
+	border-top: 1px solid #5d6063;
+	border-right: 1px solid #5d6063;
+	border-bottom: 1px solid #5d6063;
+	border-left: 1px solid #5d6063;*/
+	border: 1px solid #5d6063;
+	/*margin: 10px;*/
+}
+
+strong {
+	/*padding: 50px;*/
+	margin: 50px;
+}
+
+p {
+	padding: 14px;
+	/*margin-bottom: 50px;*/
+	margin-top: 25px;
+}
+
+span {
+	font-size: 2em;  /* 1em = 16px (default font-size) */
+	color: red;
+}

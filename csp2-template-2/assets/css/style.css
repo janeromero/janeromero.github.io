@@ -1,9 +1,12 @@
-/**
+/*
+ *
  * General Rules
+ *
  */
 
 body {
 	background-color: gold;
+	font-family: 'Marmelad', sans-serif;	
 }
 
 .navbar,
@@ -11,16 +14,25 @@ body {
 	border-radius: 0;
 }
 
-/**
+/*
+ *
  * Main Header
+ *
  */
 
 .navbar-inverse {
 	margin-bottom: 0;
 }
 
-/**
+a.navbar-brand {
+	font-family: 'Fredoka One', cursive;
+	font-size: 2em;
+}
+
+/*
+ *
  * Content
+ *
  */
 
 .wrapper {
@@ -93,12 +105,24 @@ td {
 	height: 50px;
 }
 
-/**
+/*
+ *
  * Main Footer
+ *
  */
  
 .main-footer {
 	background-color: lightgrey;
 	padding: 15px;
 	text-align: center;
+}
+
+/*
+ *
+ * Bootstrap Overrides
+ *
+ */
+
+.form-control {
+	border-radius: 0;
 }

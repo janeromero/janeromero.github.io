@@ -7,8 +7,14 @@
 
 	<title>Kraff Beeer - <?php getTitle(); ?></title>
 
-	<!-- imports bootstrap -->
+	<!-- Imports bootstrap -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
-	<!-- imports custom stylesheet -->
+	<!-- Imports custom stylesheet -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Imports custom font for brand name -->
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+	<!-- Imports custom font for all pages -->
+	<link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
