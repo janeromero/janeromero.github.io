@@ -56,6 +56,25 @@ include 'partials/head.php';
 	</div> <!-- /.container-fluid -->
 
 	<div class="wrapper">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-8">
+				<h1>Game Statistics</h1>
+
+				<p>February 10, 2018</p>
+				<img class="img-responsive" src="assets/images/feb10.jpg">
+			</div>
+
+			<div class="col-lg-4">
+				<div>
+					<img class="img-responsive" src="assets/images/logoclear.png">
+				</div>
+
+
+			</div>
+		</div>
+	</div>
 	
 	</div> <!-- /.wrapper -->
 

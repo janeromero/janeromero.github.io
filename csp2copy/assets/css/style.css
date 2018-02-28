@@ -105,22 +105,12 @@ li,
 /* carousel */
 
 .carousel {
-	/*padding-top: 20px;*/
+	padding-top: 40px;
 	align-content: center;
 }
 
 .carousel-inner > .item > img {
     margin: 0 auto;
-}
-
-.form-control {
-	border-radius: 0;
-}
-
-#loginForm,
-#registerForm {
-	width: 40%;
-	margin: 0 auto;
 }
 
 

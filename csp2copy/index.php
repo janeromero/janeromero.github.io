@@ -1,7 +1,7 @@
 <?php 
 
 function getTitle() {
-	echo 'Statistics | Fantasy Hoops Basketball League';	
+	echo 'Fantasy Hoops Basketball League';	
 }
 
 include 'partials/head.php';
@@ -56,6 +56,7 @@ include 'partials/head.php';
 	</div> <!-- /.container-fluid -->
 
 	<div class="wrapper">
+
 	
 	</div> <!-- /.wrapper -->
 

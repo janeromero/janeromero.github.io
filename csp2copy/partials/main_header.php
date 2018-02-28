@@ -50,8 +50,25 @@
         } else {
           echo '
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="user_login.php">Login</a></li>            
-            <li><a href="register.php">Register</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Login
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Player</a></li>
+              <li><a href="#">User</a></li>
+            </ul>
+            </li>
+        
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Register
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Player</a></li>
+              <li><a href="#">User</a></li>
+            </ul>
+            </li>
           </ul>
           ';
         }
@@ -61,8 +78,6 @@
     </div> <!-- /.collapse -->
   </div> <!-- /.container-fluid -->
 </nav>
-
-
 
 
 
