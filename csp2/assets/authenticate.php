@@ -26,7 +26,7 @@ if (mysqli_num_rows($result) > 0) {
 
 
 if ($isLogInSuccessful) {
-	header('location: ../index.php');
+	header('location: ../home.php');
 } else {
 	header('location: ../user_login.php');
 }

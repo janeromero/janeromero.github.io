@@ -15,7 +15,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse-x">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
+        <li><a href="home.php">Home</a></li>
         <li><a href="#">Game Schedule</a></li>
         <li><a href="statistics.php">Statistics</a></li>
         <li><a href="#">Merchandise</a></li>
@@ -27,7 +27,7 @@
 
           if ($_SESSION['role'] == 'admin') {
             echo '
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
               <li><a href="#">Settings</a></li>
             </ul>
             ';

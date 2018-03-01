@@ -17,5 +17,5 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<!-- FONT -->
-  	<link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
 
