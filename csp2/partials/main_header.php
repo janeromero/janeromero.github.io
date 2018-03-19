@@ -18,7 +18,7 @@
         <li><a href="home.php">Home</a></li>
         <li><a href="#">Game Schedule</a></li>
         <li><a href="statistics.php">Statistics</a></li>
-        <li><a href="#">Merchandise</a></li>
+        <li><a href="catalog.php">Merchandise</a></li>
       </ul>
 
       <?php
