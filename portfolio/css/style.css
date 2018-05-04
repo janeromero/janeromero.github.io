@@ -245,6 +245,10 @@ body, html {
 	color: black;
 }
 
+.middle a {
+	color: black;
+}
+
 
 .col-sm-4:hover .home {
 	opacity: .2;
