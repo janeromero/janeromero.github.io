@@ -43,7 +43,7 @@ body, html {
 /* INTRO PAGE */
 .intro {
 	margin: auto;
-	background: url("../img/bg.jpg") no-repeat 50% 50%;
+	background: url("../img/bg.JPG") no-repeat 50% 50%;
 	display: table;
 	top: 0;
 	background-size: cover;
