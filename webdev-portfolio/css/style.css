@@ -72,13 +72,19 @@ body, html {
 
 }
 
+#border {
+	height:1%;
+	width: 100%;
+	background-color: hotpink; 
+}
+
 /* ABOUT ME */
 #aboutme {
 	margin: auto;
 	display: table;
-	top: 0;
+	top: 50%;
 	background-size: cover;
-	height: 50%;
+	height: 100%;
 	width: 100%;
 	background-color: rgba(193, 204, 156, .1);	
 }
@@ -97,8 +103,8 @@ body, html {
 	border-radius: 50%;
 	margin: 20px auto;
 	clear: right;
-	float: left;
-  	width: 33.33%;
+	/*float: left;*/
+  	width: 40%;
   	/*padding: 5px;*/
 }
 
@@ -158,7 +164,7 @@ body, html {
 }
 
 .col-sm-6 {
-	padding-right: 0;
+	padding-right: 2%;
 }
 
 .skills p {
@@ -231,25 +237,27 @@ body, html {
 }
 
 .boxed-item1 {
-	padding: 10px 20px;
-	display: inline-block;
-	border: solid 2px gray;
+	padding: 10px 10px;
+	/*display: inline-block;*/
+	border: solid 1px gray;
 	box-sizing: border-box;
 	font-size: 15px;
-	color: gray;
+	background-color: #081822;
+	text-align: center;
+}
 
+.boxed-item1 a {
+	opacity: 1;
+	color: #c1cc9c;
+}
+
+.boxed-item1 a:hover {
+	opacity: 1;
+	color: #b5d1f1;
 }
 
 .boxed-item1:hover {
-	padding: 10px 20px;
-	display: inline-block;
-	border: solid 2px gray;
-	box-sizing: border-box;
-	font-size: 15px;
-	color: white;
-	cursor: pointer;
-	background-color: gray;
-	
+	cursor: pointer;	
 }
 
 #projects {
